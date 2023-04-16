@@ -1,17 +1,22 @@
 ﻿using System;
 
-public class Plant
+namespace BlazorApp1.Data
 {
-	public Plant()
-	{
-		public int Id {  get; set; }
-		public string Name { get; set; }
-		public float MinimumTemp { get; set; }
-		public float MaximumTemp { get; set; }
-		public float MinimumHumidity { get; set; }
-		public float MaximumHumidity { get;set; }
-		public float MinimumSunligtHours { get; set; }
-		public float MaximumSunligtHours { get;set; }
-		public float MaximumSunlightStrenght { get; set; }
-	}
+    public class Plant
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public Preferences Preferences { get; set; }
+        public Mood Mood { get; set; }
+        public DateTime DateOfPlanting { get; set; }
+    }
+
+    public enum Mood
+    {
+        Dead = 0,
+        Not_happy = 1,
+        Hanging_by = 2,
+        Good = 3,
+        Exelent = 4
+    }
 }

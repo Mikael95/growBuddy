@@ -1,10 +1,9 @@
-﻿using System;
+﻿using BlazorApp1.Data;
+using System;
 using System.Collections.Generic;
 
 public class FieldUnit
 {
-	public FieldUnit()
-	{
 		public int Id { get; set; }
 		public string Name { get; set; }
 
@@ -19,5 +18,5 @@ public class FieldUnit
         {
             plants = value;
         }
-}
+
 }

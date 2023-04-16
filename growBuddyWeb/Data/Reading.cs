@@ -1,12 +1,11 @@
-﻿using System;
+﻿using BlazorApp1.Data;
+using System;
 
 /// <summary>
 /// Summary description for Class1
 /// </summary>
 public class Reading
 {
-	public Reading()
-	{
 		public int Id {  get; set; }
 		public FieldUnit Unit { get; set; }
 		public Plant plant { get; set; }
@@ -14,5 +13,4 @@ public class Reading
 		public float Humidity { get; set; }
 		public float Sunlight { get; set; }
 		public DateTime Date { get; set; }
-	}
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pkmik\\source\\repos\\BlazorApp1\\BlazorApp1.csproj": {}
+    "C:\\Users\\pkmik\\source\\repos\\growBuddy\\growBuddyWeb\\BlazorApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pkmik\\source\\repos\\BlazorApp1\\BlazorApp1.csproj": {
+    "C:\\Users\\pkmik\\source\\repos\\growBuddy\\growBuddyWeb\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pkmik\\source\\repos\\BlazorApp1\\BlazorApp1.csproj",
+        "projectUniqueName": "C:\\Users\\pkmik\\source\\repos\\growBuddy\\growBuddyWeb\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "C:\\Users\\pkmik\\source\\repos\\BlazorApp1\\BlazorApp1.csproj",
+        "projectPath": "C:\\Users\\pkmik\\source\\repos\\growBuddy\\growBuddyWeb\\BlazorApp1.csproj",
         "packagesPath": "C:\\Users\\pkmik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pkmik\\source\\repos\\BlazorApp1\\obj\\",
+        "outputPath": "C:\\Users\\pkmik\\source\\repos\\growBuddy\\growBuddyWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pkmik\\AppData\\Roaming\\NuGet\\NuGet.Config",
