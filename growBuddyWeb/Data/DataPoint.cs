@@ -4,6 +4,12 @@
     {
         public float Data { get; set; }
         public Severety Severety { get; set; }
+
+        public DataPoint (float data, Severety severety)
+        {
+            Data = data;
+            Severety = severety;
+        }
     }
 
     public enum Severety

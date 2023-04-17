@@ -4,19 +4,14 @@ using System.Collections.Generic;
 
 public class FieldUnit
 {
-		public int Id { get; set; }
-		public string Name { get; set; }
+	public int Id { get; set; }
+	public string Name { get; set; }
+    private List<Plant> plants { get; set; }
 
-        private List<Plant> plants;
-
-        public List<Plant> GetPlants()
-        {
-            return plants;
-        }
-
-        public void SetPlants(List<Plant> value)
-        {
-            plants = value;
-        }
+    public FieldUnit( string name, List<Plant> plants) 
+    {
+        this.Name = name;
+        this.plants = plants;
+    }
 
 }

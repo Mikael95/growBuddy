@@ -9,6 +9,14 @@ namespace BlazorApp1.Data
         public Preferences Preferences { get; set; }
         public Mood Mood { get; set; }
         public DateTime DateOfPlanting { get; set; }
+
+        public Plant (int id, string name, Preferences preferences, Mood mood, DateTime dateOfPlanting)
+        {
+            Name = name;
+            Preferences = preferences;
+            Mood = mood;
+            DateOfPlanting = dateOfPlanting;
+        }
     }
 
     public enum Mood

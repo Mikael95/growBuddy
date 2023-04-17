@@ -13,4 +13,14 @@ public class Reading
 		public float Humidity { get; set; }
 		public float Sunlight { get; set; }
 		public DateTime Date { get; set; }
+
+	public Reading (FieldUnit fieldUnit, Plant plant, float temp, float humidity, float Sunlight, DateTime date)
+	{
+		this.Unit = fieldUnit;
+		this.plant = plant;
+		this.Temp = temp;
+		this.Humidity = humidity;
+		this.Sunlight = Sunlight;
+		this.Date = date;
+	}
 }
